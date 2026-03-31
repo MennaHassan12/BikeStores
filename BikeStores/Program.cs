@@ -156,7 +156,7 @@ namespace BikeStores
 
             Console.WriteLine($"Average Price: {avg}");
 
-            14 - Retrieve a specific product from the products table by ID
+            //14 - Retrieve a specific product from the products table by ID
             var p = db.Products.FirstOrDefault(p => p.ProductId == 5);
 
             Console.WriteLine($"{p.ProductId} | {p.ProductName} | Price:{p.ListPrice}");
