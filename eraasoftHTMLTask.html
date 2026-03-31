@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Example</title>
+</head>
+<body>
+
+    <h1>HTML Form Example</h1>
+    <p>This is an example of an <s>HTML4</s> HTML5 form containing يحتوى various <mark>input</mark> controls:</p>
+
+    <form>
+
+        
+        <fieldset>
+            <legend>User Information</legend>
+
+            <label>Username:</label>
+            <input type="text" name="username"><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email"><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password"><br><br>
+        </fieldset>
+
+        <br>
+
+        
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label>Phone:</label>
+            <input type="text" name="phone"><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="4" cols="40"></textarea>
+        </fieldset>
+
+        <br>
+
+       
+        <fieldset>
+            <legend>Subscription</legend>
+
+            <label>Subscribe to newsletter:</label>
+            <input type="checkbox" name="sub1"><br>
+
+            <label>Subscribe to newsletter:</label>
+            <input type="checkbox" name="sub2">
+        </fieldset>
+
+        <br>
+
+       
+        <fieldset>
+            <legend>Preferred Language</legend>
+
+            <label>Select your preferred language:</label>
+            <select name="language">
+                <option>English</option>
+                <option>Spanish</option>
+                <option>French</option>
+                <option>German</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+       
+        <fieldset>
+            <legend>Feedback</legend>
+
+            <label>Rate our service:</label>
+            <input type="range" min="0" max="10">
+        </fieldset>
+
+        <br>
+
+       
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
